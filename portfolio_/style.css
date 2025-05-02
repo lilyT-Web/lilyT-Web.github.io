@@ -1,0 +1,255 @@
+/* Fonts */ 
+
+@import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Edu+NSW+ACT+Foundation:wght@400..700&family=Ms+Madi&family=Playwrite+AU+SA:wght@100..400&display=swap');
+
+/*
+font-family: "Ms Madi", cursive;
+
+font-family: "Playwrite AU SA", cursive;
+
+font-family: "Edu NSW ACT Foundation", cursive;
+
+font-family: "Caudex", serif;
+*/ 
+
+/* Line Hover */
+
+* {
+    box-sizing: border-box;
+    }
+    *,
+    *::before
+    *::after{
+    padding: 0;
+    margin: 0;
+    }
+
+li::after{
+    content: '';
+    position:absolute;
+    background-color: #ffffff;
+    height: 1.5px;
+    width: 0; 
+    left: 0; 
+    bottom: 15px; 
+    transition: all 0.25s ease; 
+}
+
+li:hover::after{
+    width: 100%;
+}
+
+nav ul li a:hover {
+    background: #ffffff4c;
+    color: #ffffff; 
+    
+}
+
+/* pages */ 
+
+/* home */
+
+.home {
+h2 {
+    font-family: "Playwrite AU SA", cursive;
+    font-weight: ligher; 
+    font-size:largest; 
+    color:#000
+    
+}
+
+p {
+    font-family: "Caudex", serif;
+    word-spacing: 3px;
+    line-height: 40px;
+    font-size: 24px; 
+    color:#000
+   
+}
+
+section {
+    color: #000; 
+    flex: 1 1 33%;
+ }
+
+ ul {
+    list-style-type: none; 
+    padding: 0;
+    display: flex;
+    color: #FFF;
+    justify-content:space-evenly;
+    margin: 1px;
+}
+
+li {
+    color: #FFF; 
+    position:relative;
+    list-style:none; 
+    font-size: 25px; 
+    letter-spacing: 0.5px;
+    padding: 30px; 
+    font-family: "Playwrite AU SA", cursive;
+    
+}
+
+a {
+    text-decoration:none; 
+    Display: block; 
+    color: #FFF;
+    border-radius: 5px;
+    position:relative; 
+    }
+ 
+ img {
+    padding: 15px;
+ }
+
+ li:hover{
+    color: #ffffff3b;
+}
+}
+
+/* Resume*/ 
+   
+ .resume {
+    ul, h2, h3 {
+    font-family: "Edu NSW ACT Foundation", cursive;
+    font-size: xx-large;
+    font-weight:medium; 
+   }
+
+   li, p {
+    font-size: x-large; 
+    font-family: "Caudex", serif;
+   }
+ }
+
+/* Contact*/ 
+
+
+.contact {
+
+    main {
+    display: flex; 
+    flex-flow: row wrap;
+    position:absolute;
+    }
+
+    section {
+    flex: 1 1 33%; 
+    position:relative;
+    }
+
+    img {
+    width: 10%;
+    padding: 10px;
+    margin-left: auto ;
+    margin-right:auto ;
+
+    
+    }
+
+   h2 {
+    font-size: 40px;
+    font-family: "Playwrite AU SA", cursive;
+
+   }
+
+   p {
+    font-size: 40px; 
+    font-family: "Caudex", serif;
+   } 
+
+
+   input {
+    width: 100%; 
+    height: 70px; 
+    font-size: 30px;
+    box-sizing: border-box; 
+    resize:none; 
+    padding: 12px
+     
+   }
+
+   input[type=button] {
+    background-color: #0f3326;
+    color: white;
+    border: none; 
+    cursor: pointer;
+  }
+  div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+   
+
+}
+
+/* Portfolio */
+
+.portfolio
+
+{
+     h2 {
+       font-size: 250%;
+       font-family: "Playwrite AU SA", cursive;
+    }
+
+    p {
+        font-size: 150%;
+        font-family: "Caudex", serif;
+    }
+
+    img {
+        padding: 20px; 
+    }
+}
+
+/* Style */ 
+
+header {
+    background-image: url(pics/hero_.png);
+    background-size: cover;
+    background-position: 50%;
+    position: relative;
+    height: 300px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color: #FFF; 
+    font-size: 100px;
+    border-radius: 2px; 
+    align-content: center;   
+    font-family: "Ms Madi", cursive;  
+    font-weight: lighter; 
+}
+
+nav {
+    background-image: url(pics/hero_.png)
+}
+
+main {
+    width: 90%;
+    margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+    display: flex; 
+    flex-flow: row wrap; 
+}
+
+footer {
+    padding: 20px;
+    background-image: url(pics/hero_.png)
+   
+}
+
+footer p {
+    font-family: "Playwrite AU SA", cursive;
+    color:#FFF; 
+    font-size: 25px; 
+}

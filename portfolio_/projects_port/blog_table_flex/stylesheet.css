@@ -1,0 +1,82 @@
+/* Fonts */
+
+/* 
+
+ font-family: "Fredericka the Great", serif;
+
+
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Quando&family=Rye&display=swap');
+
+* {
+  
+  box-sizing: border-box;
+}
+
+
+table {
+  font-family: "Fredericka the Great", serif;
+}
+
+section {
+    padding: 20px; 
+    background: #fffff5;
+    border-radius: 1%;
+    font-family: "Quando", serif;
+    font-size: medium;   
+}
+
+section:nth-of-type(1) {
+  float: left;
+}
+
+
+img {
+  min-width: 100%;
+  max-width: 100%;
+  border-radius: 1%;
+}
+
+header {
+  font-size: 150%;
+  font-family: "Rye", serif;
+  font-weight: lighter;
+  color:#3a2613;
+  background: #fff9e6; 
+  padding: 10px; 
+  padding-left: 20px; 
+}
+
+footer {
+  padding: 20px; 
+  background: #fffff5;
+  border-radius: 1%;
+  font-family: "Quando", serif;
+
+}
+
+/* Basic Table formatting desktop/laptop */
+
+table {
+    width: 100%;
+    max-width: 100%;
+    border-collapse: collapse;
+  }
+  
+  tr:nth-of-type(odd) {
+    background: #fff8e6;
+  }
+  
+  th, tfoot td {
+    background: #333;
+    color: #fff8e6;
+    font-weight: bold;
+  }
+  
+  th, td {
+    border: 1px solid #fff8e6;
+    padding: 6px;
+  }
+  

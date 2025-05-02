@@ -1,0 +1,87 @@
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&family=Proza+Libre:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Quattrocento:wght@400;700&display=swap');
+
+/* 
+font-family: "Cormorant Garamond", serif;
+font-family: "Proza Libre", serif;
+ font-family: "Quattrocento", serif;
+*/
+h1 {
+    font-family: "Quattrocento", serif;
+}
+
+
+ h2, h3, p span {
+    font-family: "Proza Libre", serif;
+}
+
+p, li, footer {
+    font-family: "Cantarell", serif;
+    font-weight:200;
+}
+
+
+header, footer {
+    background:  #8cba8c;
+    padding: 10px; 
+}
+
+h1 {
+    color: #FFFFFF; 
+    padding-left: 2%;
+    font-size:60px;
+}
+
+h1 span {
+    color: #1a338c;
+    padding-left: .4%;
+   
+}
+
+h2 {
+    color: #1a338c;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+nav {
+    font-size:x-large; 
+}
+
+blockquote {
+    font-size:x-large;
+    font-weight:bold;
+}
+
+p {
+    font-size:x-large;
+    padding-left: 2%
+}
+p span {
+    font-weight: bold;
+    padding-left: 2%
+}
+
+html {
+    width: 90%;
+    margin: auto;
+
+}
+main   {
+    width: 90%;
+    margin: auto;
+}
+li {
+    font-size:x-large;
+}
+
+footer {
+padding-left: 5%;
+font-weight: bold;
+}

@@ -1,0 +1,78 @@
+/* 
+
+font-family: "Ribeye", serif;
+
+font-family: "Ribeye Marrow", serif;
+
+  font-family: "Alice", serif;
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Ribeye&family=Ribeye+Marrow&display=swap');
+
+
+/* This code below is for Nutrients*/
+
+section:nth-of-type(4) ul  {
+    list-style-type: none;
+    display: flex;
+    justify-content:space-around;
+    padding: 0%;
+    margin: 0%;
+}
+
+section:nth-of-type(4) ul li  {
+border: 1px solid #000;
+margin: 5px; 
+display: inline-block;
+}
+
+section:nth-of-type(4) ul span {
+    display:block; 
+    padding: 1rem;
+    border-top: 1px solid; 
+    text-align: center; 
+    background: #e6f2ff;
+}
+
+section:nth-of-type(4) ul li span:nth-of-type(1) {
+background:#FFF;
+}
+section:nth-of-type(4) ul li :nth-of-type(1) {
+    background:blue;
+    }
+
+
+/* 
+  Grid section     
+*/
+
+main {
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "ingr instr"
+    "ingr img"
+    "ingr nutri"
+    ;
+}
+
+section:nth-of-type(1) {
+    grid-area: ingr;
+    background: #cceeff; 
+}
+
+section:nth-of-type(2) {
+    grid-area: instr; 
+    background: #80c1ff;
+}
+
+section:nth-of-type(3) {
+    grid-area: img; 
+}
+
+section:nth-of-type(4) {
+    grid-area: nutri;
+    background:#80c1ff;
+}
